@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-class App extends Component {
+class NewPost extends Component {
 	render() {
 		return (
 			<div>
-				<h1>Hi!</h1>
+				Hello!
 			</div>
 		)
-	}
+	};
 };
 
-App.propTypes = {
+NewPost.propTypes = {
 
-};
+}
 
-export default App;
+export default NewPost;
